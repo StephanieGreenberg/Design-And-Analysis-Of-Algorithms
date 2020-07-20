@@ -6,7 +6,7 @@ In this assignment, you need to implement the best-first-search branch and bound
 
 The program will have 2 command line arguments: input file, output file.
 
-*Input file:*
+**Input file:**
 The structure of the input file is as follows.
 Line 1: n,c // n is the size of the problem (the total number of items) and C is the total weight limit 
 Lines 2 to n+1: wi,pi // wi is the weight of item i and pi is the profit of item i
@@ -16,7 +16,7 @@ For example:
 5,30
 10,50 5,10
 
-*Output file:*
+**Output file:**
 The structure of the output file is as follows.
 
 Line 1: the size of the problem (i.e., the total number of items),the optimal value (i.e., the maximum profit),the size (k) of the first optimal solution found (i.e., the size of the first optimal subset of items found to produce the maximum profit)
